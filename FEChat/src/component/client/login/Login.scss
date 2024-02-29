@@ -1,0 +1,9 @@
+.forgot-pass {
+    color: #0184e0;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

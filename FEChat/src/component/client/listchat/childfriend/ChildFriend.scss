@@ -1,0 +1,35 @@
+.child-chat-friend-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #eeeeee;
+    }
+
+    &.active {
+        background-color: #e5efff;
+    }
+
+    .child-chat-body-left {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 100%;
+
+        .child-chat-right {
+            margin-left: 8px;
+        }
+    }
+
+    .child-chat-body-right {}
+
+
+
+
+}

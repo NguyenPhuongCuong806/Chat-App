@@ -1,0 +1,39 @@
+.chat-infor-top-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .chat-info-top-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .chat-info-top-left-text {
+            margin-left: 5px;
+
+            .text {
+                display: flex;
+                align-items: center;
+                font-size: .875rem;
+                font-weight: 400;
+                line-height: 1.5;
+                white-space: nowrap;
+                word-wrap: break-word;
+                color: var(--text-secondary);
+                direction: ltr;
+                --conversation-list-height: calc(100vh - 68.5px);
+                --conversation-list-height-have-title-bar: calc(100vh - 77.5px);
+                --update-btn-height: 0px;
+                font-family: SegoeuiPc, Segoe UI, San Francisco, Helvetica Neue, Helvetica, Lucida Grande, Roboto, Ubuntu, Tahoma, Microsoft Sans Serif, Arial, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-font-smoothing: antialiased;
+                text-shadow: 0 0 0 var(--BA30);
+                letter-spacing: .2px;
+                color: gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.child-chat-container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #eeeeee;
+    }
+
+    &.active {
+        background-color: #e5efff;
+    }
+
+    .child-chat-right {
+        margin-left: 8px;
+
+        .child-name-big {
+            display: flex;
+            align-items: center;
+        }
+
+        .text-chat-exp {
+            font-size: .875rem;
+            font-weight: 400;
+            line-height: 1.5;
+            white-space: nowrap;
+            word-wrap: break-word;
+            color: var(--text-secondary);
+            direction: ltr;
+            --conversation-list-height: calc(100vh - 68.5px);
+            --conversation-list-height-have-title-bar: calc(100vh - 77.5px);
+            --update-btn-height: 0px;
+            font-family: SegoeuiPc, Segoe UI, San Francisco, Helvetica Neue, Helvetica, Lucida Grande, Roboto, Ubuntu, Tahoma, Microsoft Sans Serif, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: antialiased;
+            text-shadow: 0 0 0 var(--BA30);
+            letter-spacing: .2px;
+            color: gray;
+        }
+    }
+}

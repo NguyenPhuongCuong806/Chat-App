@@ -1,0 +1,15 @@
+.list-friend-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    border-right: 1px solid gray;
+
+    .list-friend-top {
+        top: 0;
+    }
+
+    .list-friend-bottom {
+        flex: 1;
+        overflow-y: auto;
+    }
+}
